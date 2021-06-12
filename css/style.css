@@ -3,12 +3,20 @@ body{
     font-size: 18px;
 }
 
+/*
 .content-image-hero{
     position: absolute;
     width: 100%;
     height: 100%;
 }
 
+.welcome-hero{
+    background-color: red;
+}
+
+h1{
+    background-color: blue;
+}
 .content-image-hero img{
     position: relative;
     width: 100%;
@@ -68,10 +76,6 @@ main{
     display:inline-block;
 }
 
-/*.description{
-    font-size: 18px;
-}*/
-
 .part1-main-acess{
     display: flex;
     flex-direction: row;
@@ -130,3 +134,56 @@ main{
 .part2-main-c{
     margin-top: 20px;
 }
+*/
+
+.welcome-hero{
+    width: 100%;
+    height: 250px;
+    background: url("../images/image-hero-mobile.jpg") no-repeat center center / cover;
+}
+
+.welcome-hero p{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top:100px;
+}
+
+.menu-links-items{
+    display: none;
+}
+
+.menu-icon{
+    float:right
+}
+
+.logo{
+    float:left;
+}
+
+.welcome-top{
+    padding-top: 20px;
+    border: 1px solid red;
+}
+.about-container{
+    border: 1px solid #0F0;
+}
+.about-text{
+    background: red;
+    margin-top: -20px;
+
+}
+
+
+
+@media only screen and (min-width:768px){
+    .welcome-hero{
+        height: 400px;
+        background: url("../images/image-hero-desktop.jpg") no-repeat center center /cover;
+    }
+}
+
+
+
+
+
