@@ -1,72 +1,6 @@
 body{
     background: #fafafa;
-    font-size: 18px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.btn{
-  border:none;
-  border-radius: 30px;
-  padding:15px 35px;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.image-bookmark{
-    margin-left: 10px;
-}
-
-.btn-part1-main{
-    background: #3cb4ab;
-    color:#ffffff;
-}
-
-.part2-main{
-    position: relative;
-    top:40px;
-    background: #ffffff;
-    width: 950px;
-    height: 800px;
-    border-radius: 15px;
-    text-align: center;
-}
-
-.part2-main-a{
-    margin-top: 20px;
-}
-
-.numbers{
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.horizontal-line{
-    border: 1px solid red;
-    margin-top: 20px;
-    width: 150px;
-    display:inline-block;
-}
-
-.part2-main-b{
-    margin-top: -20px;
-}
-
-.part2-main-c{
-    margin-top: 20px;
-}
-
 
 .welcome-hero{
     width: 100%;
@@ -95,12 +29,6 @@ body{
 
 .welcome-top{
     padding-top: 20px;
-
-
-
-
-
-
     border: 1px solid red;
 }
 
@@ -113,8 +41,6 @@ body{
     margin-top: -20px;
     background: #fafafa;
 }
-
-
 
 .logo-mastercraft{
     display: flex;
@@ -140,30 +66,41 @@ body{
     margin-bottom: 40px;
 }
 
-.btn-model{
-     border:none;  
+.btns{
+    border:none;  
     border-radius: 30px;
     padding:15px 35px;
     font-size: 18px;
     font-weight: 600;
   }
 
-.btn-back{
-    background: #46afa8;
+  .btn-green{
+    background:#3cb4ab;
     color:#ffffff
+  }
+
+
+.image-bookmark{
+    margin-left: 10px;
 }
 
-.about-values{
+.about-content{
+    background: #fafafa;
+    margin-top: -20px;
+    text-align: center;
+    border:1px solid red;
+}
+
+.about-content-descriptions{
     background: #fafafa;
     margin-top: 20px;
-    display: flex;
-    justify-content: center;
     text-align: center;
+    border:1px solid red;
 }
 
-.value-one{
+ .value{
     padding-top: 20px;
-}
+ }
 
 .numbers{
     font-weight: bold;
@@ -171,8 +108,62 @@ body{
 }
 
 .line{
-    border-bottom: 1px solid red;
+    border: 1px solid red;
     width: 100px;
+    margin:0 auto;
+}
+
+.line-two-colors{
+    border: 6px solid;  
+    border-radius: 6px;
+    width: 250px;
+    margin: 0 auto;
+    background: #3cb4ab;
+}
+
+.product-information{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.subtitle{
+    font-size:25px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 14px;
+}
+
+.prices{
+    margin-top: 40px;
+
+}
+
+.subtitle-2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.colorful-words{
+    color: #3cb4ab;
+}
+
+.position{
+    top:-5px;
+    position: relative;
+    margin-left: 5px;
+}
+
+.small-btn{
+    border:none;  
+    border-radius: 30px;
+    padding:15px 35px;
+    font-size: 18px;
+    font-weight: 00px;
+    background:#3cb4ab;
+    color:#ffffff
 }
 
 
@@ -188,6 +179,31 @@ body{
         justify-content: space-around;
     }
 
+    .value{
+        width: 33.33%;
+        float:left;
+        margin-top: 40px;
+    }
+
+    .line{
+        border-left:1px solid red;
+        width: 90px;
+        transform: rotate(90deg);
+        margin:110px;
+        top: -140px;
+        position: relative;
+    }
+
+    .line-two-colors{
+        margin: 50px -300px;
+        width: 450px;
+    }
+
+    .numbers{
+        float:left
+    }
+
+    
 
 }
 
