@@ -34,12 +34,7 @@ body{
 
 .about-container{
     border: 1px solid #0F0;
-}
-
-.about-content{
-    border:1px solid red;
     margin-top: -20px;
-    background: #fafafa;
 }
 
 .logo-mastercraft{
@@ -49,7 +44,7 @@ body{
     top:-30px;
 }
 
-.masterclass-bamboo-advertisement{
+.about-advertisement{
     text-align: center;
     align-items: center;
 }
@@ -59,7 +54,7 @@ body{
     font-size: 30px;
 }
 
-.mastercraft-bamboo-interactions{
+.about-cta{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -84,33 +79,28 @@ body{
     margin-left: 10px;
 }
 
-.about-content{
-    background: #fafafa;
-    margin-top: -20px;
-    text-align: center;
-    border:1px solid red;
-}
 
-.about-content-descriptions{
+.numbers-container{
     background: #fafafa;
     margin-top: 20px;
     text-align: center;
     border:1px solid red;
 }
 
- .value{
-    padding-top: 20px;
- }
-
 .numbers{
     font-weight: bold;
     font-size: 30px;
 }
 
+/* mudar,colocar o after  */
 .line{
     border: 1px solid red;
     width: 100px;
     margin:0 auto;
+}
+
+.backers{
+    margin-top: 40px;
 }
 
 .line-two-colors{
@@ -136,7 +126,7 @@ body{
     font-size: 14px;
 }
 
-.prices{
+.backers{
     margin-top: 40px;
 
 }
@@ -166,6 +156,10 @@ body{
     color:#ffffff
 }
 
+.prices-product{
+    padding:10px;
+}
+
 
 
 
@@ -175,11 +169,11 @@ body{
         background: url("../images/image-hero-desktop.jpg") no-repeat center center /cover;
     }
 
-    .mastercraft-bamboo-interactions{
+    .mastercraft-bamboo-cta{
         justify-content: space-around;
     }
 
-    .value{
+    .backers{
         width: 33.33%;
         float:left;
         margin-top: 40px;
@@ -200,10 +194,10 @@ body{
     }
 
     .numbers{
-        float:left
+        float:left;
     }
 
-    
+
 
 }
 
