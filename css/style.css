@@ -34,7 +34,14 @@ body{
 
 .about-container{
     border: 1px solid #0F0;
+
+}
+
+.content-about{
     margin-top: -20px;
+    border: 1px solid blue;
+    background: #ffffff;
+    border-radius: 7px;
 }
 
 .logo-mastercraft{
@@ -61,30 +68,67 @@ body{
     margin-bottom: 40px;
 }
 
-.btns{
-    border:none;  
+.green-btn{
+    background:#3cb4ab;
+    color:#ffffff;
     border-radius: 30px;
     padding:15px 35px;
     font-size: 18px;
     font-weight: 600;
-  }
-
-  .btn-green{
-    background:#3cb4ab;
-    color:#ffffff
-  }
-
+    border: none;
+}
 
 .image-bookmark{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 
-.numbers-container{
-    background: #fafafa;
-    margin-top: 20px;
+.backers-container{
+    text-align: center;
+    border:1px solid green;
+}
+
+.content-backers{
+    background: #ffffff;
     text-align: center;
     border:1px solid red;
+    border-radius: 7px;
+    position: relative;
+}
+
+.backers-small-gray{
+    background: #cdcdcd;
+    width: 250px;
+    height: 15px;
+    margin: 20px auto;
+    border-radius: 7px;
+    position: relative;
+}
+
+.backers-big-green{
+    background:#3cb4ab;
+    width: 210px;
+    height: 15px;
+    margin: 20px auto;
+    position: absolute;
+    border-radius: 7px;
+    top:-20px;
+}
+
+.word{
+    width: 100px;
+    background: #cdcdcd;
+    border:none;  
+    /*border-radius: 30px;
+    padding:0px 20px;*/
+    font-size: 18px;
+    font-weight: 600;
+    color:gray;
+    position: relative;
+    /* left:10px; */
+    bottom: -40px;
+    display:none;
+    text-align: center;
 }
 
 .numbers{
@@ -92,14 +136,23 @@ body{
     font-size: 30px;
 }
 
-/* mudar,colocar o after  */
-.line{
-    border: 1px solid red;
-    width: 100px;
-    margin:0 auto;
+.information-about-supporters{
+    background: yellowgreen;
 }
 
-.backers{
+.information-about-supporters::after{
+    content: '';
+     border: 1px solid red; 
+    width: 100px;
+    margin: 20px auto 0;
+    display: block; 
+}
+
+.word-backers{
+    font-size: 14px;
+}
+
+.backers-informations{
     margin-top: 40px;
 }
 
@@ -128,7 +181,6 @@ body{
 
 .backers{
     margin-top: 40px;
-
 }
 
 .subtitle-2{
@@ -164,39 +216,61 @@ body{
 
 
 @media only screen and (min-width:768px){
-    .welcome-hero{
-        height: 400px;
-        background: url("../images/image-hero-desktop.jpg") no-repeat center center /cover;
-    }
+.welcome-hero{
+    height: 400px;
+    background: url("../images/image-hero-desktop.jpg") no-repeat center center /cover;
+}
 
-    .mastercraft-bamboo-cta{
-        justify-content: space-around;
-    }
+.mastercraft-bamboo-cta{
+    justify-content: space-around;
+}
 
-    .backers{
-        width: 33.33%;
-        float:left;
-        margin-top: 40px;
-    }
+.line{
+    border-left:1px solid red;
+    width: 90px;
+    transform: rotate(90deg);
+    margin:110px;
+    top: -140px;
+    position: relative;
+}
 
-    .line{
-        border-left:1px solid red;
-        width: 90px;
-        transform: rotate(90deg);
-        margin:110px;
-        top: -140px;
-        position: relative;
-    }
+.about-cta{
+    justify-content: space-between;
+    margin: 40px;
+}
 
-    .line-two-colors{
-        margin: 50px -300px;
-        width: 450px;
-    }
+.green-btn{
+    border-radius: 40px;
+    padding: 0 40px;
+}
 
-    .numbers{
-        float:left;
-    }
+.word{
+    display: inline-block;
+}
 
+.backers-informations{
+    width: 33.33%;
+    float: left;
+}
+
+.backers-small-gray{
+    width: 650px;
+    margin: 40px -440px;
+}
+
+.backers-big-green{
+    width: 580px;
+}
+
+
+.information-about-supporters::after{
+    margin: -50px 200px;
+    transform: rotate(90deg);
+}
+
+.image-bookmark{
+    margin-left: -150px;
+}
 
 
 }
