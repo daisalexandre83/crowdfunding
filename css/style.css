@@ -33,16 +33,14 @@ body{
 }
 
 .about-container{
-    border: 1px solid #0F0;
-
-}
-
-.content-about{
-    margin-top: -20px;
-    border: 1px solid blue;
-    background: #ffffff;
-    border-radius: 7px;
-}
+    position: relative;
+    top: -80px;
+    background-color: #fafafa;
+    border: #f9f9f9;
+    border-radius: 8px;
+    padding: 0 5px;
+    border: #f9f9f9;
+}   
 
 .logo-mastercraft{
     display: flex;
@@ -56,9 +54,13 @@ body{
     align-items: center;
 }
 
-.title{
+.text{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.subtext{
+    color: #adadad;
 }
 
 .about-cta{
@@ -72,28 +74,28 @@ body{
     background:#3cb4ab;
     color:#ffffff;
     border-radius: 30px;
-    padding:15px 35px;
     font-size: 18px;
     font-weight: 600;
     border: none;
+    height: 60px;
+    margin-top: 25px;
+    padding: 5px 40px;
 }
 
 .image-bookmark{
-    margin-left: 15px;
+    margin-left: 10px;
+    margin-top: 25px;
 }
 
 
 .backers-container{
     text-align: center;
-    border:1px solid green;
-}
-
-.content-backers{
     background: #ffffff;
     text-align: center;
-    border:1px solid red;
-    border-radius: 7px;
+    border:1px solid #f9f9f9;
+    border-radius: 8px;
     position: relative;
+    
 }
 
 .backers-small-gray{
@@ -117,18 +119,17 @@ body{
 
 .word{
     width: 100px;
+    height: 55px;
     background: #cdcdcd;
     border:none;  
-    /*border-radius: 30px;
-    padding:0px 20px;*/
+    border-radius: 25px; 
     font-size: 18px;
     font-weight: 600;
     color:gray;
-    position: relative;
-    /* left:10px; */
-    bottom: -40px;
     display:none;
     text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
 }
 
 .numbers{
@@ -136,17 +137,31 @@ body{
     font-size: 30px;
 }
 
-.information-about-supporters{
-    background: yellowgreen;
+.backers-informations{
+    position: relative;
 }
 
-.information-about-supporters::after{
+.backers-informations::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 100px;
+    background-color: #d6d6d6;
+    bottom: -16px;
+    right: calc(50% - 50px);
+}
+
+.backers-informations:last-child::after{
+    display: none;
+}
+
+/* .information-about-supporters::after{
     content: '';
      border: 1px solid red; 
     width: 100px;
     margin: 20px auto 0;
     display: block; 
-}
+} */
 
 .word-backers{
     font-size: 14px;
@@ -168,11 +183,6 @@ body{
     margin-top: 20px;
     text-align: left;
     margin-left: 10px;
-}
-
-.subtitle{
-    font-size:25px;
-    font-weight: bold;
 }
 
 .description{
@@ -208,8 +218,15 @@ body{
     color:#ffffff
 }
 
-.prices-product{
+.information-container{
+    position: relative;
+    top: 20px;
+}
+
+.product-info{
     padding:10px;
+    border: 1px solid #888;
+    border-radius: 15px;
 }
 
 
@@ -246,6 +263,10 @@ body{
 
 .word{
     display: inline-block;
+    width: 200px;
+    margin-left: 152px;
+    padding-left: 40px;
+
 }
 
 .backers-informations{
@@ -269,7 +290,15 @@ body{
 }
 
 .image-bookmark{
-    margin-left: -150px;
+    margin: -55px 150px;
+    border: 1px solid blue;
+}
+
+.backers-informations::after{
+    height: 75px;
+    width: 1px;
+    bottom: 10px;
+    right: 0;
 }
 
 
