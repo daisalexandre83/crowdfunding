@@ -35,11 +35,10 @@ body{
 .about-container{
     position: relative;
     top: -80px;
-    background-color: #fafafa;
-    border: #f9f9f9;
+    background-color: #ffffff;
     border-radius: 8px;
     padding: 0 5px;
-    border: #f9f9f9;
+    border:1px solid #f9f9f9;
 }   
 
 .logo-mastercraft{
@@ -78,13 +77,13 @@ body{
     font-weight: 600;
     border: none;
     height: 60px;
-    margin-top: 25px;
+    margin-top: 30px;
     padding: 5px 40px;
 }
 
 .image-bookmark{
     margin-left: 10px;
-    margin-top: 25px;
+    margin-top: 32px;
 }
 
 
@@ -95,7 +94,7 @@ body{
     border:1px solid #f9f9f9;
     border-radius: 8px;
     position: relative;
-    
+    top:-100px;
 }
 
 .backers-small-gray{
@@ -155,14 +154,6 @@ body{
     display: none;
 }
 
-/* .information-about-supporters::after{
-    content: '';
-     border: 1px solid red; 
-    width: 100px;
-    margin: 20px auto 0;
-    display: block; 
-} */
-
 .word-backers{
     font-size: 14px;
 }
@@ -179,12 +170,6 @@ body{
     background: #3cb4ab;
 }
 
-.product-information{
-    margin-top: 20px;
-    text-align: left;
-    margin-left: 10px;
-}
-
 .description{
     font-size: 14px;
 }
@@ -193,12 +178,14 @@ body{
     margin-top: 40px;
 }
 
-.subtitle-2{
+.product-info-title{
     font-size: 20px;
     font-weight: bold;
 }
 
-.colorful-words{
+.product-price{
+    position: relative;
+    top: -15px;
     color: #3cb4ab;
 }
 
@@ -208,27 +195,47 @@ body{
     margin-left: 5px;
 }
 
-.small-btn{
-    border:none;  
-    border-radius: 30px;
-    padding:15px 35px;
-    font-size: 18px;
-    font-weight: 00px;
-    background:#3cb4ab;
-    color:#ffffff
-}
-
 .information-container{
     position: relative;
-    top: 20px;
+    top: -80px;
+    border:1px solid #f9f9f9;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.information-container-text{
+    padding-top: 10px;
 }
 
 .product-info{
-    padding:10px;
+    padding:20px;
     border: 1px solid #888;
     border-radius: 15px;
+    margin-bottom: 20px;
 }
 
+.product-info-subtext{
+    position: relative;
+    top:-10px;
+}
+
+.btn-model{
+    border: none;
+    border-radius: 30px;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    height: 60px;
+}
+
+.btn-select-reward{
+    background:#3cb4ab;
+    color:#ffffff;
+}
+  
 
 
 
@@ -300,6 +307,23 @@ body{
     bottom: 10px;
     right: 0;
 }
+
+.information-container{
+    font-size: 16px;
+    padding: 10px 57px;
+}
+
+.product-price{
+    padding: 3px;
+    width: 50%;
+    float: right;
+}
+
+.product-info-title{
+    width: 50%;
+    float: left;
+}
+
 
 
 }
