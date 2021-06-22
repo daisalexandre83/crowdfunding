@@ -137,9 +137,8 @@ body{
 }
 
 .product-info-numbers {
-    font-weight: bold;
-    font-size: 28px;
-} 
+    overflow: hidden;
+    } 
 
 .backers-informations{
     position: relative;
@@ -194,12 +193,6 @@ body{
     color: #3cb4ab;
 }
 
-.position{
-    top:-5px;
-    position: relative;
-    margin-left: 5px;
-}
-
 .information-container{
     position: relative;
     top: -80px;
@@ -220,6 +213,8 @@ body{
     border-radius: 15px;
     margin-bottom: 20px;
 }
+
+.pr
 
 .product-info-subtext{
     position: relative;
@@ -256,6 +251,16 @@ body{
 
 .opacity{
    opacity: 0.5;
+}
+
+.product-info-numbers p{
+    font-weight: bold;
+    font-size: 28px;
+    display: inline-block;
+}
+
+.product-info-numbers span{
+    vertical-align: super;
 }
   
 
