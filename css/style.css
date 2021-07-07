@@ -79,6 +79,7 @@ body{
     height: 60px;
     margin-top: 30px;
     padding: 5px 40px;
+    float:left;
 }
 
 .back-this-project:active{
@@ -86,8 +87,8 @@ body{
 }
 
 .image-bookmark{
-    margin-left: 10px;
     margin-top: 32px;
+    margin-left: 10px;
 }
 
 
@@ -105,7 +106,7 @@ body{
     background: #cdcdcd;
     width: 250px;
     height: 15px;
-    margin: 20px auto;
+    margin: 40px auto;
     border-radius: 7px;
     position: relative;
 }
@@ -146,6 +147,7 @@ body{
 
 .backers-informations{
     position: relative;
+    margin-top: 40px;
 }
 
 .backers-informations::after{
@@ -162,26 +164,6 @@ body{
     display: none;
 }
 
-.word-backers{
-    font-size: 14px;
-}
-
-.backers-informations{
-    margin-top: 40px;
-}
-
-.line-two-colors{
-    border: 6px solid;  
-    border-radius: 6px;
-    width: 250px;
-    margin: 0 auto;
-    background: #3cb4ab;
-}
-
-.description{
-    font-size: 14px;
-}
-
 .backers{
     margin-top: 40px;
 }
@@ -192,8 +174,6 @@ body{
 }
 
 .product-price{
-   /* position: relative;
-    top: -15px;*/
     color: #3cb4ab;
 }
 
@@ -208,7 +188,7 @@ body{
 }
 
 .information-container-text{
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .product-info{
@@ -218,8 +198,8 @@ body{
     margin-bottom: 20px;
 }
 
-.product-info::last{
-    opacity: 0.7;
+.product-info:last-child{
+    opacity: 0.5;
 }
 
 .product-info-subtext{
@@ -256,6 +236,8 @@ body{
 .product-info-numbers span{
     vertical-align: super;
 }
+ 
+
   
 
 
@@ -266,27 +248,9 @@ body{
     background: url("../images/image-hero-desktop.jpg") no-repeat center center /cover;
 }
 
-.mastercraft-bamboo-cta{
-    justify-content: space-around;
-}
-
-.line{
-    border-left:1px solid red;
-    width: 90px;
-    transform: rotate(90deg);
-    margin:110px;
-    top: -140px;
-    position: relative;
-}
-
 .about-cta{
     justify-content: space-between;
     margin: 40px;
-}
-
-.green-btn{
-    border-radius: 40px;
-    padding: 0 40px;
 }
 
 .bookmark{
@@ -310,7 +274,6 @@ body{
 .backers-big-green{
     width: 580px;
 }
-
 
 .information-about-supporters::after{
     margin: -50px 200px;
@@ -353,7 +316,6 @@ body{
 
 .btn-select-reward{
     margin-left: 235px;
-    /* margin-top: -40px; */
 }
 
 .btn-out-of{
