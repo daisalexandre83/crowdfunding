@@ -177,6 +177,14 @@ body{
     color: #3cb4ab;
 }
 
+.gray-line{
+    align-items: center;
+    border: 2px solid #ececec;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
 .information-container{
     position: relative;
     top: -80px;
@@ -196,6 +204,16 @@ body{
     border: 1px solid #888;
     border-radius: 15px;
     margin-bottom: 20px;
+}
+
+.concentric-cicle{
+    width: 30%;
+    float: left;
+}
+
+.title-price{
+    width: 70%;
+    float: left;
 }
 
 .cicle{
