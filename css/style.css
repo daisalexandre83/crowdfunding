@@ -261,9 +261,50 @@ body{
     display: inline-block;
 }
 
+.popup-subtext{
+    color:#adadad;
+    border:1px solid red;
+}
+
 .product-info-numbers span{
     vertical-align: super;
 }
+
+.btns{
+    border: 1px solid blue;
+    display: flex;
+}
+
+.coin{
+    opacity: 0.5;
+    right: 8px;
+    position: relative;
+    top: 7px;
+}
+
+.popup-btns{
+    padding: 5px 30px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 45px;
+}
+
+.price-btn{
+    border: 1px solid #bacfd0;
+    background:#ffffff;
+    color: black;
+}
+
+.continue-btn{
+    background:#3cb4ab;
+    color:#ffffff;
+}
+
+
+
+
+
  
 
   
