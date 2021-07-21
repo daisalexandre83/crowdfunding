@@ -53,13 +53,24 @@ body{
     align-items: center;
 }
 
+.about-containers-btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .text{
     font-weight: bold;
     font-size: 25px;
+    margin: 0 10px;
 }
 
 .subtext{
     color: #adadad;
+    width: 93%;
+    margin: 0 auto;
+    position: relative;
+    top: 15px;
+    padding-bottom: 15px;
 }
 
 .about-cta{
@@ -306,6 +317,7 @@ body{
 .continue-btn{
     background:#3cb4ab;
     color:#ffffff;
+    border: none;
 }
 
 .numbers-popup{
@@ -345,12 +357,13 @@ body{
 
 .popup .content{
     position: absolute;
-    top: 50%;
+    top: 235%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
-    width: 450px;
-    height: 275px;
+    width: 345px;
+    height: 1480px;
+    border-radius: 10px;
     z-index: 2;
     text-align: center;
     padding: 20px;
@@ -364,8 +377,8 @@ body{
     top: 20px;
     width: 30px;
     height: 30px;
-    background: #222;
-    color:#fff;
+    background: #fff;
+    color:#9b9b9b;
     font-size: 25px;
     font-weight: 600;
     line-height: 30px;
