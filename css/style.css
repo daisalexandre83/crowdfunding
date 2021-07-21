@@ -169,7 +169,7 @@ body{
 }
 
 .product-info-title{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -207,18 +207,23 @@ body{
 }
 
 .concentric-cicle{
-    width: 30%;
+    width: 15%;
     float: left;
+    position: relative;
+    top: 15px;
 }
 
 .title-price{
-    width: 70%;
+    width: 80%;
     float: left;
+    border: 1px solid red;
 }
 
 .cicle{
     width: 15%;
     float: left;
+    position: relative;
+    top: 3px;
 }
 
 .popup-title{
@@ -263,7 +268,9 @@ body{
 
 .popup-subtext{
     color:#adadad;
-    border:1px solid red;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
 }
 
 .product-info-numbers span{
@@ -271,8 +278,8 @@ body{
 }
 
 .btns{
-    border: 1px solid blue;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .coin{
@@ -299,6 +306,80 @@ body{
 .continue-btn{
     background:#3cb4ab;
     color:#ffffff;
+}
+
+.numbers-popup{
+    font-size: 20px;
+}
+
+.numbers-and-text{
+    display: flex;
+}
+
+.numbers-and-text h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.numbers-and-text span{
+    position: relative;
+    left: 10px;
+    top:1px;
+}
+
+.title-price p:last-child{
+    position: relative;
+    top: -15px;
+}
+
+.popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: #fff;
+    width: 450px;
+    height: 275px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup .close-btn{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.popup.active .overlay{
+    display: block;
+}
+
+.popup.active .content{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%,-50%) scale(1);
 }
 
 
