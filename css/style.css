@@ -99,7 +99,7 @@ body{
 
 .image-bookmark{
     margin-top: 32px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 
@@ -189,9 +189,7 @@ body{
 }
 
 .gray-line{
-    align-items: center;
     border: 2px solid #ececec;
-    display: block;
     width: 300px;
     margin: 0 auto;
 }
@@ -228,14 +226,13 @@ body{
 .title-price{
     width: 80%;
     float: left;
-    border: 1px solid red;
 }
 
 .cicle{
     width: 15%;
     float: left;
     position: relative;
-    top: 3px;
+    /* top: 3px; */
 }
 
 .popup-title{
