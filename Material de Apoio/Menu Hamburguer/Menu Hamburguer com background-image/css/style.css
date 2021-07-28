@@ -52,12 +52,13 @@ body{
 }
 
 .nav-sidebar{
-    position: fixed;
+    position: relative;
+    top: 45px;
     left:0;
     bottom: 0;
     width: 50px;
     height: calc(100vh -60px);
-    padding: 0 5px;
+    padding: 0 10px;
     background-color: #1b1b1b;
     z-index: 1000;
     transition: all 0.3s ease-in-out;
@@ -77,7 +78,7 @@ body{
 .nav-sidebar ul li span, .nav-sidebar ul li a{
     display: block;
     height: 60px;
-    padding: 0 10px;
+    /* padding: 0 30px; */
     text-decoration: none;
     text-transform: uppercase;
     color: #fff;
