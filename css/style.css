@@ -31,17 +31,18 @@ body{
 }
 
 .nav{
-    background-color: #adadad;
+    /* background-color: #adadad; */
+    background: red;
     display:none;
 }
 
 .nav.open{
-    display: inline;
+    display: block;
 }
 
-/*.menu-links-items{
+.menu-links-items{
     display: none;
-}*/
+}
 
 
 .menu-icon{
@@ -381,11 +382,11 @@ body{
 
 .popup .content{
     position: absolute;
-    top: 235%;
+    top: 185%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
-    width: 345px;
+    width: 320px;
     height: 1480px;
     border-radius: 10px;
     z-index: 2;
