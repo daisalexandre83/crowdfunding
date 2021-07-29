@@ -16,6 +16,7 @@ body{
 }
 
 .btn-toggle-nav{
+    display:block;
     width: 60px;
     height: 100%;
     /* background-color: #f98f39; */
@@ -29,57 +30,19 @@ body{
     right: -10px;
 }
 
+.nav{
+    background-color: #adadad;
+    display:none;
+}
+
+.nav.open{
+    display: inline;
+}
+
 /*.menu-links-items{
     display: none;
 }*/
 
-.nav-sidebar{
-    display: none; 
-    position: absolute;
-    top: 80px;
-    /* left:0; */
-    bottom: 0;
-    width: 310px;
-    /* height: calc(100vh -60px); */
-    padding: 0 10px;
-    background-color: #ffffff;
-    z-index: 1;
-    transition: all 0.3s ease-in-out;
-    border-radius: 10px;
-    right: 20px;
-    color:black;
-}
-
-.nav-sidebar ul{
-    padding-top: 15px;
-    overflow: hidden;
-    visibility: hidden;
-}
-
-.nav-sidebar ul li{
-    line-height: 60px;
-    list-style: none;
-}
-
-.nav-sidebar ul li span, .nav-sidebar ul li a{
-    display: block;
-    height: 60px;
-    /* padding: 0 30px; */
-    text-decoration: none;
-    text-transform: uppercase;
-    /* color:black; */
-    font-family: arial;
-    font-size: 16px;
-    white-space: nowrap;
-    opacity: 0;
-    transition: all 0.3s ease-in-out;
-}
-
-.nav-sidebar ul li a:hover{
-    background-color: #222;
- 
-    
- }
 
 .menu-icon{
     float:right
