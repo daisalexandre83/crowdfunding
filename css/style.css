@@ -49,8 +49,27 @@ body{
     float:right
 }
 
-.logo{
+.hamburguer{
     float:left;
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+}
+
+.hamburguer img{
+    width: 61%;
+}
+
+.xclose{
+    float:left;
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+    display: none;
+}
+
+.xclose img{
+    width: 61%;
 }
 
 .welcome-top{
