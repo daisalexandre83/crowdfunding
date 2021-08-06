@@ -1,9 +1,9 @@
 .hamburguer{
-   /* width: 100%;
-    height: 100%;*/
+    width: 50px;
+    height: 50px;
     background-color: yellowgreen;
     position: relative;
-    left: 150px;
+    /* left: 150px; */
 }
 
 .hamburguer img{
@@ -13,12 +13,12 @@
 }
 
 .xclose{
-    /*width: 100%;
-    height: 100%;*/
+    width: 50px;
+    height: 50px;
     background: green;
-    display: none;
+    /* display: none; */
     position: relative;
-    left: 150px;
+    /* left: 150px; */
 }
 
 .xclose img{
@@ -29,9 +29,9 @@
 
 .nav{
     background: red;
-    display: none;
+    /* display: none; */
 }
 
-.open{
+/* .open{
     display: block;
-}
+} */

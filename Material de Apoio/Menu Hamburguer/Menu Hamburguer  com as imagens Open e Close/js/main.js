@@ -3,7 +3,7 @@ var ham = document.querySelector(".ham")
 var xclose = document.querySelector(".xclose")
 var hamburguer = document.querySelector(".hamburguer")
 
-ham.addEventListener("click", toggleMenu)
+/* ham.addEventListener("click", toggleMenu)
 
 function toggleMenu() {
   if (menu.classList.contains("showMenu")) {
@@ -23,4 +23,4 @@ menuLinks.forEach(
   function (menuLink) {
     menuLink.addEventListener("click", toggleMenu)
   }
-)
+) */
