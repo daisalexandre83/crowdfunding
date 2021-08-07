@@ -15,62 +15,32 @@ body{
     top: 100px;
 }
 
-.btn-toggle-nav{
-    display:block;
-    width: 60px;
-    height: 100%;
-    /* background-color: #f98f39; */
-    background-image: url("../images/icon-hamburger.svg");
-    background-repeat: no-repeat;
-    background-size: 40%;
-    /* background-position: center; */
-    cursor: pointer;
-    border: 1px solid green;
-    position: absolute;
-    right: -10px;
+.logo{ 
+    float: left;
 }
 
-.nav{
-    /* background-color: #adadad; */
-    background: red;
-    display:none;
-}
-
-.nav.open{
-    display: block;
-}
-
-.menu-links-items{
-    display: none;
-}
-
-
-.menu-icon{
+.menu-hamburguer{
     float:right
 }
 
-.hamburguer{
-    float:left;
+.menu-hamburguer img{
     width: 100%;
     height: 100%;
-    background-color: yellowgreen;
 }
 
-.hamburguer img{
-    width: 61%;
+.menu-close{
+    float:right
 }
 
-.xclose{
-    float:left;
+.menu-close img{
     width: 100%;
     height: 100%;
-    background-color: yellowgreen;
-    display: none;
 }
 
-.xclose img{
-    width: 61%;
-}
+.nav{
+    /* display: none; */
+    background: red;
+} 
 
 .welcome-top{
     padding-top: 25px;
@@ -79,7 +49,7 @@ body{
 
 .about-container{
     position: relative;
-    top: -40px;
+    top: -55px;
     background-color: #ffffff;
     border-radius: 8px;
     padding: 0 5px;
@@ -362,6 +332,7 @@ body{
     background:#3cb4ab;
     color:#ffffff;
     border: none;
+
 }
 
 .numbers-popup{
@@ -401,11 +372,11 @@ body{
 
 .popup .content{
     position: absolute;
-    top: 185%;
+    top: 190%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
-    width: 320px;
+    width: 325px;
     height: 1480px;
     border-radius: 10px;
     z-index: 2;
@@ -463,6 +434,10 @@ body{
 .welcome-hero{
     height: 400px;
     background: url("../images/image-hero-desktop.jpg") no-repeat center center /cover;
+}
+
+.about-container{
+    top: -90px;
 }
 
 .about-cta{
@@ -539,14 +514,14 @@ body{
     margin-left: 250px;
 }
 
-.menu-links-items{
+.nav{
     display: flex;
     justify-content: right;
 }
 
 
 
-.menu-links-items a{
+.nav a{
     font-size: 14px;
    padding-left: 20px;
     color:#ffffff;
@@ -559,7 +534,7 @@ a:link{
 }
 
 
-.menu-icon{
+.menu-hamburguer{
     display: none;
 }
 
