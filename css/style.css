@@ -38,9 +38,39 @@ body{
 }
 
 .nav{
-    /* display: none; */
-    background: red;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    position: relative;
+    top: 35px;
+    border-radius: 10px;
+    /* border:1px solid #fffdfe; */
+    width: 335px;
+    z-index: 1;
 } 
+
+.nav a{
+    font-size: 20px;
+    padding-left: 20px;
+    color:black;
+    /* font-weight: bold; */
+    border:1px solid #ececec;
+    height: 60px;
+    /* align-items: center;
+    justify-content: center; */
+    padding-top: 20px;
+}   
+
+.nav a:last-child::after{
+    border:none;
+}
+
+
+a:link{
+    text-decoration: none;
+    color:#ffffff;
+}
+
 
 .welcome-top{
     padding-top: 25px;
@@ -169,7 +199,7 @@ body{
 
 .product-info-numbers {
     overflow: hidden;
-    } 
+} 
 
 .backers-informations{
     position: relative;
@@ -414,22 +444,6 @@ body{
     text-align: left;
 }
 
-.btn-icon-hamburguer{
-    width: 60px;
-    height: 100%;
-    background-color: #fff;
-    background-image: url("../images/icon-hamburger.svg");
-    background-repeat: no-repeat;
-    background-size: 40%;
-    background-position: center;
-    cursor: pointer;
-}
-
-
-  
-
-
-
 @media only screen and (min-width:768px){
 .welcome-hero{
     height: 400px;
@@ -515,33 +529,19 @@ body{
 }
 
 .nav{
-    display: flex;
+    /* display: flex;
+    flex-direction: column; */
     justify-content: right;
+    background-color: blue;
 }
-
-
-
-.nav a{
-    font-size: 14px;
-   padding-left: 20px;
-    color:#ffffff;
-    font-weight: bold;
-}
-
-a:link{
-    text-decoration: none;
-    color:#ffffff;
-}
-
 
 .menu-hamburguer{
     display: none;
 }
 
-.btn-toggle-nav{
+.menu-close{
     display: none;
 }
-
 
 
 }

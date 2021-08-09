@@ -8,6 +8,18 @@ $(document).ready(function() {
     $(".nav").hide();
     $(".menu-hamburguer").click(function() {
         console.log('clicou');
+        $(".nav").slideToggle("slow",function() {
+            $(".menu-hamburguer").hide();
+            $(".menu-close").show();
+        })
+    });
+
+    $(".menu-close").click(function () {
+        console.log('clicou');
+        $(".nav").slideToggle("slow",function() {
+         $(".menu-close").hide();
+         $(".menu-hamburguer").show();
+        });
     });
     
 })
