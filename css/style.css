@@ -139,8 +139,8 @@ a:link{
     float:left;
 }
 
-.back-this-project:active{
-    background: chartreuse;
+.back-this-project:hover{
+    background: #157a74;
 }
 
 .image-bookmark{
