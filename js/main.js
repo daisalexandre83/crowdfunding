@@ -23,3 +23,8 @@ $(document).ready(function() {
     });
     
 })
+
+function showSmallerCircle() {
+    console.log('oi');
+    document.querySelector(".cicle::before").style.display = "block";
+}

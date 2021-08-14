@@ -6,6 +6,7 @@ body{
     width: 100%;
     height: 300px;
     background: url("../images/image-hero-mobile.jpg") no-repeat center center / cover;
+    background-size: contain;
 }
 
 .welcome-hero p{
@@ -261,29 +262,44 @@ a:link{
     text-align: left;
 }
 
-.concentric-cicle{
-    width: 15%;
-    float: left;
-    position: relative;
-    top: 15px;
-}
-
 .title-price{
     width: 80%;
     float: left;
 }
 
-.cicle{
-    width: 15%;
-    float: left;
+.title-price-popup{
     position: relative;
-    /* top: 3px; */
+    left:20px
 }
 
-.popup-title{
-    width: 85%;
-    float: right;
+.cicle{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    float: left;
+    position: relative;
+    border: 1px solid #c4c4c4;
 }
+
+.cicle-two{
+    position: relative;
+    top: 10px;
+}
+
+.cicle::before{
+    content: '';
+    display: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #3cb4ab;
+}
+
 
 .product-info:last-child{
     opacity: 0.5;
@@ -402,12 +418,12 @@ a:link{
 
 .popup .content{
     position: absolute;
-    top: 190%;
+    top: 198%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
     width: 325px;
-    height: 1480px;
+    height: 1540px;
     border-radius: 10px;
     z-index: 2;
     text-align: center;
