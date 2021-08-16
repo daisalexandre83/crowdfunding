@@ -18,6 +18,8 @@ body{
 
 .logo{ 
     float: left;
+    position: relative;
+    left:8px;
 }
 
 .menu-hamburguer{
@@ -27,6 +29,8 @@ body{
 .menu-hamburguer img{
     width: 100%;
     height: 100%;
+    position: relative;
+    right: 10px;
 }
 
 .menu-close{
@@ -36,36 +40,46 @@ body{
 .menu-close img{
     width: 100%;
     height: 100%;
+    position: relative;
+    right: 10px;
 }
 
 .nav{
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #ffffff;
     position: relative;
     top: 35px;
-    border-radius: 10px;
-    /* border:1px solid #fffdfe; */
-    width: 335px;
+    width: 318px;
     z-index: 1;
+    border-radius: 10px;
+    left: 5px;
 } 
 
-.nav a{
+/* .nav .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+     display:block;  
+} */
+
+.nav li{
     font-size: 20px;
     padding-left: 20px;
-    color:black;
-    /* font-weight: bold; */
-    border:1px solid #ececec;
-    height: 60px;
-    /* align-items: center;
-    justify-content: center; */
+    border-bottom: 1px solid #ececec;
+    height: 65px;
     padding-top: 20px;
-}   
+} 
 
-.nav a:last-child::after{
-    border:none;
+.nav li:last-child{
+    border-bottom: none;
 }
 
+.nav a{
+    color:black;
+}
 
 a:link{
     text-decoration: none;
@@ -545,10 +559,8 @@ a:link{
 }
 
 .nav{
-    /* display: flex;
-    flex-direction: column; */
     justify-content: right;
-    background-color: blue;
+    display: inline-block! important;
 }
 
 .menu-hamburguer{
