@@ -45,7 +45,6 @@ body{
 }
 
 .nav{
-    flex-wrap: wrap;
     background-color: #ffffff;
     position: relative;
     top: 35px;
@@ -71,6 +70,7 @@ body{
     border-bottom: 1px solid #ececec;
     height: 65px;
     padding-top: 20px;
+    width: 100%;
 } 
 
 .nav li:last-child{
@@ -558,10 +558,14 @@ a:link{
     margin-left: 250px;
 }
 
-.nav{
+
+
+.nav {
     justify-content: right;
-    display: inline-block! important;
+    display:inline-block! important;
 }
+
+
 
 .menu-hamburguer{
     display: none;
