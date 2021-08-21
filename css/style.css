@@ -23,7 +23,8 @@ body{
 }
 
 .menu-hamburguer{
-    float:right
+    float:right;
+    cursor: pointer;
 }
 
 .menu-hamburguer img{
@@ -34,7 +35,10 @@ body{
 }
 
 .menu-close{
-    float:right
+    float:right;
+    display: none;
+    cursor: pointer;
+    
 }
 
 .menu-close img{
@@ -45,6 +49,7 @@ body{
 }
 
 .nav{
+    display: none; 
     background-color: #ffffff;
     position: relative;
     top: 35px;
@@ -53,6 +58,14 @@ body{
     border-radius: 10px;
     left: 5px;
 } 
+
+.nav.open{
+    display: block;
+}
+
+.nav.close{
+    display: none;
+}
 
 /* .nav .overlay{
     position: fixed;
@@ -561,8 +574,7 @@ a:link{
 
 
 .nav {
-    justify-content: right;
-    display:inline-block! important;
+    display: inline-block;
 }
 
 
