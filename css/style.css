@@ -48,57 +48,38 @@ body{
     right: 10px;
 }
 
-.nav{
+.menu-links{
     display: none; 
     background-color: #ffffff;
     position: relative;
     top: 35px;
-    width: 318px;
+    width: 318px; 
+    height: 220px;
     z-index: 1;
     border-radius: 10px;
     left: 5px;
 } 
 
-.nav.open{
-    display: block;
-}
-
-.nav.close{
-    display: none;
-}
-
-/* .nav .overlay{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.7);
-     display:block;  
-} */
-
-.nav li{
+.menu-links ul li{
     font-size: 20px;
-    padding-left: 20px;
-    border-bottom: 1px solid #ececec;
-    height: 65px;
-    padding-top: 20px;
-    width: 100%;
+    list-style:none;
 } 
 
-.nav li:last-child{
+.menu-links ul li:last-child{
     border-bottom: none;
 }
 
-.nav a{
+.menu-links a{
     color:black;
+    border-bottom: 1px solid red;
+    position: relative;
+    width: 100px;
 }
 
 a:link{
     text-decoration: none;
     color:#ffffff;
 }
-
 
 .welcome-top{
     padding-top: 25px;
@@ -183,7 +164,7 @@ a:link{
     border:1px solid #f9f9f9;
     border-radius: 8px;
     position: relative;
-    top:-60px;
+    top:-70px;
 }
 
 .backers-small-gray{
@@ -269,7 +250,7 @@ a:link{
 
 .information-container{
     position: relative;
-    top: -80px;
+    top: -45px;
     border:1px solid #f9f9f9;
     border-radius: 8px;
     background-color: #ffffff;
@@ -285,7 +266,7 @@ a:link{
     border: 1px solid #888;
     border-radius: 15px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: left;
 }
 
@@ -450,7 +431,7 @@ a:link{
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
     width: 325px;
-    height: 1540px;
+    height: 1580px;
     border-radius: 10px;
     z-index: 2;
     text-align: center;
@@ -552,10 +533,10 @@ a:link{
     padding-left: 130px;
 }
 
-.product-info-title{
+/* .product-info-title{
     width: 50%;
     float: left;
-}
+} */
 
 .product-info-numbers{
     width: 25%;
@@ -571,20 +552,30 @@ a:link{
     margin-left: 250px;
 }
 
-
-
-.nav {
-    display: inline-block;
+.menu-links {
+    display: block!important;
+    position: relative;
+    top:0px;
+    margin-left: 350px;
+    background: none;
 }
 
-
+.menu-links a {
+    color: #ffffff;
+}
 
 .menu-hamburguer{
     display: none;
 }
 
 .menu-close{
-    display: none;
+    display: none!important;
+}
+
+.popup .content{
+    position: absolute;
+    margin-top: 20px;
+    width: 690px;
 }
 
 
