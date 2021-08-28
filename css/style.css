@@ -597,35 +597,20 @@ a:link{
 
 .popup .product-info{
     margin-top: 30px;
-    height: 160px;
+    height: 160px; 
+     display: flex; 
 }
 
-/* .popup .product-info:first-child{
-    margin-top: 50px;
-    background-color: green;
-} */
-
-/* .popup .subtext:first-child{
-    margin-bottom: 30px;
-} */
-
-.popup .product-info-title{
-    border: 1px solid blue;
-    margin-top: 5px;
-} 
-
-.popup .product-price{
-    padding-right: 337px;
+ /* .popup .product-price{
     margin-top: -32px;
-    border: 1px solid red;
     display: block ruby;
-} 
+}  
 
-.popup .subtext{
+ .popup .subtext{
     border: 1px solid green;
     float:inline-end;
     margin-top: -20px;
-}
+} 
 
  .popup-subtext {
     display: none;
@@ -634,17 +619,16 @@ a:link{
 .popup .numbers-and-text {
     border: 1px solid black;
     position: relative;
-    /* left:147px */
-}
-
+} 
+ */
 .price-btn{
     display: none;
 }
 
 .continue-btn{
     display: none;
-}
-
+} 
+ 
 
 }
 
