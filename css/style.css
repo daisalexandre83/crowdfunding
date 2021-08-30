@@ -601,26 +601,7 @@ a:link{
      display: flex; 
 }
 
- /* .popup .product-price{
-    margin-top: -32px;
-    display: block ruby;
-}  
 
- .popup .subtext{
-    border: 1px solid green;
-    float:inline-end;
-    margin-top: -20px;
-} 
-
- .popup-subtext {
-    display: none;
-} 
-
-.popup .numbers-and-text {
-    border: 1px solid black;
-    position: relative;
-} 
- */
 .price-btn{
     display: none;
 }
@@ -628,7 +609,19 @@ a:link{
 .continue-btn{
     display: none;
 } 
+
+.popup-subtext{
+    display: none;
+}
+
+.gray-line{
+    display: none!important;
+}
  
+.popup .product-price{
+    padding-left: 120px;
+    border: 1px solid green;
+}
 
 }
 
