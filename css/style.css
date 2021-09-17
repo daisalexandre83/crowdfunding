@@ -52,9 +52,9 @@ body{
     display: none; 
     background-color: #ffffff;
     position: relative;
-    top: 35px;
-    width: 318px; 
-    height: 220px; 
+    top: 40px;
+    width: 283px; 
+    height: 215px; 
     z-index: 1;
     border-radius: 10px;
     left: 5px;
@@ -126,11 +126,12 @@ a:link{
 
 .subtext{
     color: #adadad;
-    width: 93%;
     margin: 0 auto;
     position: relative;
     top: 15px;
     padding-bottom: 15px;
+    font-size: 14px;
+    left: 3px;
 }
 
 .about-cta{
@@ -163,7 +164,6 @@ a:link{
 }
 
 .backers-container{
-    text-align: center;
     background: #ffffff;
     text-align: center;
     border:1px solid #f9f9f9;
@@ -243,10 +243,6 @@ a:link{
     font-weight: bold;
 }
 
-.product-price{
-    color: #3cb4ab;
-}
-
 .gray-line{
     border: 2px solid #ececec;
     width: 300px;
@@ -264,6 +260,7 @@ a:link{
 
 .information-container-text{
     padding-top: 25px;
+    margin-left: 5px;
 }
 
 .product-info{
@@ -321,7 +318,7 @@ a:link{
 .product-info-subtext{
     position: relative;
     top:-10px;
-    left: -10px;
+    margin-left:  -5px;
 }
 
 .btn-model{
@@ -374,7 +371,7 @@ a:link{
 }
 
 .popup-btns{
-    padding: 5px 30px;
+    padding: 5px 20px;
     border-radius: 35px;
     font-size: 18px;
     font-weight: 600;
@@ -385,6 +382,7 @@ a:link{
     border: 1px solid #bacfd0;
     background:#ffffff;
     color: black;
+    margin-right: 5px;
 }
 
 .continue-btn{
@@ -430,12 +428,12 @@ a:link{
 
 .popup .content{
     position: absolute;
-    top: 198%;
+    top: 203%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
-    width: 325px;
-    height: 1580px;
+    width: 280px;
+    height: 1550px;
     border-radius: 10px;
     z-index: 2;
     text-align: center;
@@ -535,12 +533,8 @@ a:link{
     width: 50%;
     float: right;
     padding-left: 130px;
+    color: #3cb4ab;
 }
-
-/* .product-info-title{
-    width: 50%;
-    float: left;
-} */
 
 .product-info-numbers{
     width: 25%;
@@ -585,22 +579,19 @@ a:link{
 
 .popup .content{
     margin-top: 20px;
-    width: 690px;
+    width: 732px;
     top: 120%;
-    height: 1150px;
+    height: 1015px;
 }
 
-.popup .text{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.popup .product-info{
+.popup .subtext{
+    border: 1px solid red;
     margin-top: 30px;
-    height: 160px; 
-     display: flex; 
 }
 
+.product-price{
+    margin-top: -40px;
+}
 
 .price-btn{
     display: none;
@@ -612,15 +603,39 @@ a:link{
 
 .popup-subtext{
     display: none;
+
 }
 
 .gray-line{
     display: none!important;
 }
+
+.popup .product-info-title{
+    margin-top: 10px;
+}
  
 .popup .product-price{
-    padding-left: 120px;
-    border: 1px solid green;
+    padding-left: 78px;
+    padding-top: 15px;
+    display: block ruby;
+}
+
+.popup .product-info{
+    display: flex;
+}
+
+.popup .numbers-and-text{
+    position: absolute;
+    right: 50px;
+}
+
+.product-info-subtext{
+    display: inline-block;
+}
+
+.subtext{
+    font-size: 18px;
+    left: 3px;
 }
 
 }
