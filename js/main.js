@@ -32,10 +32,10 @@ $(".menu-close").click(function() {
 
 })  
 
- /* $(".product-info").click(function () {
+$(".product-info").click(function () {
      $(".popup .product-info::after").show();
     console.log('olá');
-}) */
+}) 
  
 $(".cicle").click(function() {
     $(".cicle::before").show();
