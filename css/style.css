@@ -21,6 +21,7 @@ body{
     float: left;
     position: relative;
     left:8px;
+    margin-top: -5px;
 }
 
 .menu-hamburguer{
@@ -59,6 +60,7 @@ body{
     z-index: 1;
     border-radius: 10px;
     left: 5px;
+    padding: 20px;
 } 
 
 .menu-links ul li{
@@ -471,7 +473,7 @@ a:link{
     text-align: left;
 }
 
-.popup .product-info::after{
+.product-info::after{
     border: 1px solid #3cb4ab;
 }
 
@@ -483,6 +485,10 @@ a:link{
 .welcome-hero{
     height: 400px;
     background: url("../images/image-hero-desktop.jpg") no-repeat center center /cover;
+}
+
+.logo{
+    margin-top: 20px;
 }
 
 .about-container{
@@ -567,7 +573,9 @@ a:link{
 .menu-links a {
     color: #ffffff;
     position: relative;
-    top: -50px;
+    top: -18px;
+    padding-right: 5px;
+    display: block ruby;
 }
 
 .menu-hamburguer{
