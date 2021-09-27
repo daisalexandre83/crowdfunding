@@ -79,13 +79,6 @@ body{
     color:black;
 }
 
-/* .line-links{
-    width: 314px;
-    height: 2px;
-    position: relative;
-    background-color: d6d6d6;
-    left: -32px;
-} */
 
 a:link{
     text-decoration: none;
@@ -312,6 +305,25 @@ a:link{
     transform: translate(-50%, -50%);
     background: #3cb4ab;
 }
+.cicle-green{
+    content: '';
+    display: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #3cb4ab;
+}
+
+
+
+.product-info-highlight{
+    border: 2px solid #3cb4ab;
+}
 
 
 .product-info:last-child{
@@ -480,6 +492,74 @@ a:link{
 .product-price{
     color: #3cb4ab;
 }
+
+.popup .product-info-title{
+    margin-left: 25px;
+}
+
+.popup .product-price{
+    margin-left: 28px;
+}
+
+#title-popup{
+    font-weight: bold;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked){
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px; 
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after
+{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #3cb4ab;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after{
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked + label:after
+{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
 
 @media only screen and (min-width:768px){
 .welcome-hero{
