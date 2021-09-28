@@ -349,11 +349,13 @@ a:link{
 .btn-select-reward{
     background:#3cb4ab;
     color:#ffffff;
+    margin-bottom: 10px;
 }
 
 .btn-out-of{
     background-color: #cdcdcd;
     color:#ffffff;
+    margin-bottom: 10px;
 }
 
 .product-info-numbers p{
@@ -448,7 +450,7 @@ a:link{
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
     width: 292px;
-    height: 1420px;
+    height: 1150px;
     border-radius: 10px;
     z-index: 2;
     text-align: center;
@@ -505,6 +507,11 @@ a:link{
     font-weight: bold;
 }
 
+
+/* #test1{
+    margin-top: 10px;
+} */
+
 [type="radio"]:checked,
 [type="radio"]:not(:checked){
     position: absolute;
@@ -536,12 +543,12 @@ a:link{
 [type="radio"]:not(:checked) + label:after
 {
     content: '';
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
     background: #3cb4ab;
     position: absolute;
-    top: 4px;
-    left: 4px;
+    top: 5px;
+    left: 5px;
     border-radius: 100%;
     -webkit-transition: all 0.2s ease;
     transition: 0.2s ease;
@@ -675,7 +682,6 @@ a:link{
 
 .popup .subtext{
     border: 1px solid red;
-    margin-top: 30px;
 }
 
 .product-price{
@@ -683,34 +689,10 @@ a:link{
     text-align: right;
 } 
 
-.price-btn{
-    display: none;
-}
-
-.continue-btn{
-    display: none;
-} 
-
-.popup-subtext{
-    display: none;
-}
-
-.gray-line{
-    display: none!important;
-}
-
-.popup .product-info-title{
-    margin-top: 10px;
-}
- 
 .popup .product-price{
     padding-left: 150px;
     padding-top: 15px;
-    display: block ruby;
-}
-
-.popup .product-info{
-    display: flex;
+    margin-right: 295px;
 }
 
 .popup .numbers-and-text{
@@ -721,10 +703,15 @@ a:link{
 .product-info-subtext{
     display: inline-block;
 }
-
+ 
 .subtext{
     font-size: 18px;
     left: 3px;
+}
+
+[type="radio"]:not(:checked) + label:after
+{
+    top: -5px; 
 }
 
 }
