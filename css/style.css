@@ -240,9 +240,12 @@ a:link{
 }
 
 .gray-line{
-    border: 2px solid #ececec;
-    width: 300px;
-    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    background: #ececec ;
+    margin-top: 10px;
 }
 
 .information-container{
@@ -266,6 +269,7 @@ a:link{
     margin-bottom: 20px;
     margin-top: 30px;
     text-align: left;
+    position: relative;
 }
 
 .title-price{
@@ -358,6 +362,10 @@ a:link{
     margin-bottom: 10px;
 }
 
+.text-and-buttons{
+    position: relative;
+}
+
 .product-info-numbers p{
     font-weight: bold;
     font-size: 28px;
@@ -369,6 +377,7 @@ a:link{
     font-size: 16px;
     text-align: center;
     padding: 8px;
+    margin-top: 20px;
 }
 
 .product-info-numbers span{
@@ -393,6 +402,7 @@ a:link{
     font-size: 18px;
     font-weight: 600;
     height: 45px;
+   
 }
 
 .price-btn{
@@ -414,6 +424,7 @@ a:link{
 
 .numbers-and-text{
     display: flex;
+    margin-top: 15px;
 }
 
 .numbers-and-text h3{
@@ -507,11 +518,6 @@ a:link{
     font-weight: bold;
 }
 
-
-/* #test1{
-    margin-top: 10px;
-} */
-
 [type="radio"]:checked,
 [type="radio"]:not(:checked){
     position: absolute;
@@ -526,6 +532,7 @@ a:link{
     line-height: 20px;
     display: inline-block;
     color: #666;
+   
 }
 [type="radio"]:checked + label:before,
 [type="radio"]:not(:checked) + label:before{
@@ -538,6 +545,7 @@ a:link{
     border: 1px solid #ddd;
     border-radius: 100%;
     background: #fff;
+    margin-top: 10px;
 }
 [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after
@@ -552,6 +560,7 @@ a:link{
     border-radius: 100%;
     -webkit-transition: all 0.2s ease;
     transition: 0.2s ease;
+    margin-top: 10px;
 }
 [type="radio"]:not(:checked) + label:after{
     opacity: 0;
@@ -631,8 +640,6 @@ a:link{
 }
 
 .product-info-numbers{
-    width: 25%;
-    float: left;
     padding-top: 10px;
 }
 
@@ -677,11 +684,7 @@ a:link{
     margin-top: 20px;
     width: 732px;
     top: 135%;
-    height: 1015px;
-}
-
-.popup .subtext{
-    border: 1px solid red;
+    height: 800px;
 }
 
 .product-price{
@@ -691,13 +694,14 @@ a:link{
 
 .popup .product-price{
     padding-left: 150px;
-    padding-top: 15px;
+    padding-top: 17px;
     margin-right: 295px;
 }
 
 .popup .numbers-and-text{
     position: absolute;
     right: 50px;
+    top: 0px;
 }
 
 .product-info-subtext{
@@ -709,10 +713,30 @@ a:link{
     left: 3px;
 }
 
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before
+{
+    top:-5px;
+}
+ [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after
 {
-    top: -5px; 
+    top:0px;
+} 
+
+.text-and-buttons{
+    display: flex;
+    margin-top: 30px;
 }
+
+.btns{
+    margin-left: 310px;
+}
+
+.popup-subtext{
+    margin-top: 0;
+}
+
 
 }
 
