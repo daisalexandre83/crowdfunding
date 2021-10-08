@@ -33,11 +33,13 @@ $(".menu-close").click(function() {
 })  
 
 $(".product-info").click(function () {
-     $(".popup .product-info::after").show();
     console.log('olá');
+    $(this).toggleClass('product-info-highlight');
+     //$(".popup .product-info::after").show();
 }) 
  
-$(".cicle").click(function() {
-    $(".cicle::before").show();
+/* $(".cicle").click(function() {
     console.log('daiane');
-})
+    $(this).toggleClass('cicle-green');
+    $(this).toggleClass('cicle::before');
+}) */
