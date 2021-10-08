@@ -118,15 +118,13 @@ a:link{
 .text{
     font-weight: bold;
     font-size: 25px;
-    margin: 0 10px;
 }
 
 .subtext{
     color: #adadad;
     margin: 0 auto;
     position: relative;
-    top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0 15px 0;
     font-size: 14px;
     left: 3px;
 }
@@ -237,6 +235,7 @@ a:link{
 
 .product-info-title{
     font-weight: bold;
+    margin-top: 10px;
 }
 
 .gray-line{
@@ -267,7 +266,7 @@ a:link{
     border: 1px solid #888;
     border-radius: 15px;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 5px;
     text-align: left;
     position: relative;
 }
@@ -387,6 +386,7 @@ a:link{
 .btns{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
 .coin{
@@ -456,12 +456,12 @@ a:link{
 
 .popup .content{
     position: absolute;
-    top: 214%;
+    top: 139%;
     left: 50%;
     transform: translate(-50%,-50%) scale(0);
     background: #fff;
     width: 292px;
-    height: 1150px;
+    height: 1200px;
     border-radius: 10px;
     z-index: 2;
     text-align: center;
@@ -516,6 +516,7 @@ a:link{
 
 #title-popup{
     font-weight: bold;
+    margin-top: 10px;
 }
 
 [type="radio"]:checked,
@@ -639,9 +640,9 @@ a:link{
     padding: 10px 57px;
 }
 
-.product-info-numbers{
+/* .product-info-numbers{
     padding-top: 10px;
-}
+} */
 
 .btn-select-reward{
     margin-left: 235px;
@@ -655,7 +656,7 @@ a:link{
     display: inline-block!important;
     position: relative;
     top:0px;
-    margin-left: 653px;
+    margin-left: 645px;
     background: none;
 }
 
@@ -668,7 +669,7 @@ a:link{
     color: #ffffff;
     position: relative;
     top: -18px;
-    padding-right: 5px;
+    padding-right: 10px;
     display: block ruby;
 }
 
