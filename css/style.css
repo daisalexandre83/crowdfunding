@@ -40,6 +40,8 @@ body{
     float:right;
     display: none;
     cursor: pointer;
+    position: relative;
+    z-index: 99;
 
 }
 
@@ -57,7 +59,7 @@ body{
     top: 50px;
     width: 287px;
     height: 150px;
-    z-index: 1;
+    z-index: 99;
     border-radius: 10px;
     left: 5px;
 }
@@ -442,17 +444,25 @@ a:link{
     top: -15px;
 }
 
-/* .overlay{
+ .overlay{
     position: fixed;
+    display: none;
     top: 0px;
     left: 0px;
     width: 100vw;
     height: 100vh;
     background: rgba(0,0,0,0.7);
     z-index:1;
-} */
+    transition: all .6s;
+    cursor: pointer;
+} 
 
-.popup .overlay{
+.active-overlay{
+    display: block;
+    top: 0;
+  } 
+
+ /*  .menu-links .overlay{
     position: fixed;
     top: 0px;
     left: 0px;
@@ -461,7 +471,26 @@ a:link{
     background: rgba(0,0,0,0.7);
     z-index:1;
     display:none;
-}
+  }
+
+  .menu-links.active .overlay{
+      display: block;
+  } */
+
+ .popup .overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+} 
+
+.popup.active .overlay{
+    display: block;
+} 
 
 .popup .content{
     position: absolute;
@@ -492,10 +521,6 @@ a:link{
     line-height: 30px;
     text-align: center;
     border-radius: 50%;
-}
-
-.popup.active .overlay{
-    display: block;
 }
 
 .popup.active .content{
@@ -664,8 +689,8 @@ a:link{
 .menu-links {
     display: inline-block!important;
     position: relative;
-    top:0px;
-    margin-left: 645px;
+    top:15px;
+    margin-left: 670px;
     background: none;
 }
 
@@ -750,6 +775,10 @@ a:link{
 .numbers-and-button{
     display: flex;
     justify-content: space-between;
+}
+
+.gray-line{
+    display: none;
 }
 
 
